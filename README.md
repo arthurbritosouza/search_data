@@ -62,10 +62,9 @@ venv\Scripts\activate      # No Windows</pre>
   <h2>Uso com Docker</h2>
   <ol>
       <strong>Pull da Imagem:</strong>
-      <pre>docker pull britoarthur855482/documentation_ai:01
+      <pre>docker pull britoarthur855482/documentation_ai:001
         
-docker run -d -p 8501:8501 --name documentation_ai_container britoarthur855482/documentation_ai:01
-</pre>
+  docker run -e GOOGLE_API_KEY=Sua_api_key_googleCloud <id_image> </pre>
     </li>
   </ol>
 
